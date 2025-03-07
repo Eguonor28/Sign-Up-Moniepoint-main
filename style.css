@@ -13,15 +13,24 @@ body {
 .container {
   /* background-color: #0361f0; */
   /* width: 900px; */
-  max-width: 100%;
+  /* max-width: 100%; */
   justify-self: center;
   height: 90vh;
 }
+.header {
+  /* justify-self: center; */
+  max-width: 100%;
+}
 .nav_con {
   display: flex;
+  /* justify-self: center; */
+  /* justify-self: center; */
+  /* column-gap: 500px; */
   justify-content: space-between;
   height: 30px;
   margin-top: 10px;
+  /* background-color: aqua; */
+  width: 100%;
 }
 .nav_con_right {
   display: flex;
@@ -30,23 +39,29 @@ body {
 .nav_con_right button {
   border: none;
   background-color: #e6eefd;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 15px 25px 25px 25px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
   color: #0361f0;
   border-radius: 10px;
+  font-size: 10px;
 }
 .nav_con_right p {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   font-size: 10px;
+  max-width: 140px;
+  margin-top: 20px;
 }
 main {
   display: flex;
   justify-content: space-between;
   column-gap: 40px;
   padding-top: 80px;
+  /* background-color: #0361f0; */
 }
 .top_section {
+  max-width: 300px;
   /* margin-top: 80px; */
   /* margin-left: 80px;
   margin-right: 100px; */
@@ -72,6 +87,7 @@ main {
   padding: 30px;
   justify-content: center;
   border-radius: 20px;
+  max-width: 350px;
 }
 .bottom_section h2 {
   font-size: medium;
@@ -115,4 +131,8 @@ strong {
 a {
   text-decoration: none;
   color: #0361f0;
+}
+
+.nav_logo {
+  max-width: 140px;
 }
